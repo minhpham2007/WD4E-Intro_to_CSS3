@@ -1,4 +1,44 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* Yêu cầu 3: Đổi font chữ và kích thước cho toàn bộ trang (body) */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Yêu cầu 4: Đổi màu nền cho phần đầu trang (header) */
+header {
+    background-color: #0056b3; 
+}
+
+/* Yêu cầu 5: Đổi màu nền cho thanh điều hướng (nav) */
+nav {
+    background-color: #003d82;
+}
+
+/* Yêu cầu 6: Đổi màu nền và cỡ chữ cho phần nội dung chính (main) */
+main {
+    background-color: #f8f9fa;
+    font-size: 18px;
+}
+
+/* Yêu cầu 7: Đổi màu nền cho chân trang (footer) */
+footer {
+    background-color: #343a40;
+}
+
+/* Yêu cầu 8: Chỉnh sửa các mục danh sách (li) để chúng nằm ngang */
+li {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Yêu cầu 9: Căn giữa, đổi font và màu chữ cho tiêu đề lớn (h1) */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #ffffff;
+}
+
+/* Yêu cầu 10: Chỉnh khoảng cách giữa các dòng của đoạn văn (p) cho dễ đọc */
+p {
+    line-height: 1.5;
 }
